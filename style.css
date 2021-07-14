@@ -41,6 +41,7 @@ width: 485px;
 height: 230px;
 margin-top: 0px;
 
+
 font-size: 64px;
 line-height: 80px;
 color: #ffffff;
@@ -290,57 +291,27 @@ h3{
 
 /* resposive */
 @media only screen and (max-width : 700px) {
-	main{
-		width: 100%;
-		display: flex;
-	
-		
-		
-		background-color: #000;
-	
-	}
+
 	.home{
-
-		display: flex;
-	
-		width: 700px;
-		height: 695px;
+		height: 1440px;
+		background-color: #2D25A0;
+	}
+	.home-image{
+		position: relative;
+		left: 50%;
+		margin-top: 30%;
 		
-		background-color: #000;
-	
-	}
 
+	}
+	.home-image img{
+		width: 60%;
+		height: 60%;
 		
-	.title{
-		position: absolute;
-		width: 278px;
-		height: 138px; 
-        left: 16px;
-		display: none;
 	}
-	.player img{
-		width: 329px;
-		height:260px;
+	.button{
+		width: 170px;
+		height: 45px;
 	}
-.button{
-
-}
-.body{
-	width: 100%;
-}
-.container{
-	width: 100%;
-	margin-left: 50%;
-	font-size: 20px;
-	size: 40px;
-}
-.players{
-	grid-template-columns: repeat(1, 1fr);
-}
-.players{
-	flex-direction: column;
-	
-
 
 }
 
